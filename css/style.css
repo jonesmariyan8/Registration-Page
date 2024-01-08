@@ -1,0 +1,167 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   /* background-color: chocolate;*/
+   background-image: url('../image/Photo.jpg');
+}
+
+.title h2 {
+    text-align: center;
+}
+
+#create-account-form {
+  /*  width:400px;
+    padding:20px;
+    text-transform: uppercase;
+    background-color: #fff;
+    */
+    
+    width: 400px;
+    padding: 20px;
+   /* background: white ;*/
+    border-radius: 30px;
+  box-shadow: 0 0 15px;
+   /* line-height: 60px;*/
+
+    color: white;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin:20px 0; 
+    position:relative;
+}
+
+.input-group label {
+    display:inline-block;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 20px;
+
+}
+
+.input-group input {
+    display:block;
+    width:100%;
+    padding:10px;   
+}
+
+.error input {
+    border:3px red solid;
+}
+
+.success input {
+    border:3px green solid;
+}
+
+ .input-group i {
+     position:absolute;
+     right:10px;
+     top:35px;
+     visibility: hidden;
+ }
+
+
+ .success i.fa-check-circle{
+     visibility: visible;
+     color:green;
+ }
+
+ .error i.fa-exclamation-circle {
+    visibility: visible;
+    color:red;
+}
+
+
+ .input-group p {
+     font-size: 15px;
+     color:red;
+     visibility: hidden;
+ }
+
+ .error p {
+     visibility: visible;
+ }
+
+ .btn {
+     width:100%;
+     padding:10px;
+     font-size: 20px;
+    /* background-color: chocolate;*/
+    background-color: white;
+   /*  color:#fff;*/
+   color: black;
+     text-transform: uppercase;
+     border:none;
+ }
+ 
+ label{
+    height: 30px;
+    width: 150px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 0 9px; 
+    color: white;
+    font-size: 20px;
+    }
+    select{
+        padding: 4px;
+        font-size: 15px;
+    }
+  select option{
+        color: black;
+        font-size: 15px;
+    
+        
+        }
+        
+
+.container1 input{
+    width: 150px;
+    padding: 4px;
+    font-size: 15px;
+
+}
+
+ 
+    
+    /*
+.container span{
+    position: absolute;
+    background: red;
+    z-index: -1;
+    pointer-events: none;
+    animation: animate 10s ease-out infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform: translatey(-600px) scale(0) rotate(0deg);
+        opacity: 0;
+    }
+
+    10%{
+        opacity: 1;
+    }
+
+    90%{
+        opacity: 1;
+    }
+
+   100%{
+        transform: translatey(1200px) scale(1) rotate(360deg);
+        opacity: 0;
+    }
+}*/
